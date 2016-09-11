@@ -1,0 +1,21 @@
+{
+  "name": "lune/http-emitter",
+  "description": "Emit psr-7 responses ",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Willem Wollebrants",
+      "email": "willem@studiow.be"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lune\\Http\\Emitter\\": "src"
+    }
+  }
+}
