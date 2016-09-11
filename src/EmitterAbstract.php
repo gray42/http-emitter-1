@@ -10,6 +10,7 @@ abstract class EmitterAbstract
 
     /**
      * Helper function: converts header names to wordcase
+     *
      * @param string $name
      * @return string
      */
@@ -21,6 +22,7 @@ abstract class EmitterAbstract
 
     /**
      * Makes sure the response has it's content length set
+     *
      * @param ResponseInterface $response
      * @return ResponseInterface
      */
@@ -53,7 +55,7 @@ abstract class EmitterAbstract
     }
 
     /**
-     * Loops through all headers and sents them
+     * Loops through all headers and sends them
      *
      * @param ResponseInterface $response
      */
