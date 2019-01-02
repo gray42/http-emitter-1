@@ -4,7 +4,6 @@
 namespace Lune\Http\Emitter;
 
 use Psr\Http\Message\ResponseInterface;
-use HttpRuntimeException;
 
 class ResponseEmitter extends EmitterAbstract
 {
