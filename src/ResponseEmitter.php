@@ -39,6 +39,6 @@ class ResponseEmitter extends EmitterAbstract
      */
     private function sendBody(ResponseInterface $response)
     {
-        echo $response->getBody();
+        echo (string) $response->getBody();
     }
 }
